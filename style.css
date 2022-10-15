@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    
 padding: 0;
 }
 body{
@@ -7,19 +7,26 @@ body{
     font-size: 38px;
 font-family:Montserrat ;
 align-items: center;
+height: 100px;
 }
     .box{
         align-content: centers;
         display: flex;
         flex-direction: row;
-        
+        justify-content: center;
+        align-items: center;
         background-color: white;
-        width: max-content;
+        max-width: 100%;
+margin: auto;
         border-radius: 2rem;
         position: relative;
         right: 5rem;
         
         
+        
+    }
+    img{
+        height: ;
     }
     .text{
         padding-left: 4rem;

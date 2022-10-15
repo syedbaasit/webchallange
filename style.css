@@ -1,4 +1,6 @@
-*{
+*{  margin: 0;
+    padding: 0;
+   
     
 padding: 0;
 }
@@ -7,7 +9,7 @@ body{
     font-size: 38px;
 font-family:Montserrat ;
 align-items: center;
-height: 100px;
+height: 100vh;
 }
     .box{
         align-content: centers;
@@ -16,11 +18,11 @@ height: 100px;
         justify-content: center;
         align-items: center;
         background-color: white;
-        max-width: 100%;
-margin: auto;
-        border-radius: 2rem;
-        position: relative;
-        right: 5rem;
+        width: max-content;
+        margin-left: 20px;
+        padding: 2px;
+        border-radius: 20px;
+        
         
         
         
@@ -43,7 +45,7 @@ font-weight: 500;
     }
     .head{
         width: 11ch;
-        margin-bottom: 3rem;
+        margin-bottom: 20px;
         font-family: Fraunces;
     }
     .bodytext{
@@ -61,10 +63,11 @@ font-weight: 500;
     .pricecut{
         font-size: 26px;
         position: relative;
-        left: 13rem;
+        left: 199px;
         text-decoration: line-through;
     bottom: 5.7rem;
     color: grey;
+    width: max-content;
     }
     .cart{
         background-color: hsl(158, 36%, 37%);

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{outline: 1px solid tomato;
+    background-image: url(images/bg-desktop.png);
+    background-color: hsl(229, 57%, 11%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: bottom left;
+    background-size: contain;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.box{height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+gap: 25px;
+
+}
+
+.small{
+    background-color:hsl(228, 56%, 26%);
+    padding-left: 27px;
+    padding-top:29px ;
+    padding-bottom:29px ;
+    padding-right: 80px;
+    border-radius: 6px 48px 6px 6px ;
+
+}
+.big{margin-top: 10px;
+    font-weight: 500;
+    background-color:hsl(228, 56%, 26%);
+    border-radius:6px ;
+    padding-left: 29px;
+    
+    padding-right: 29px;
+    padding-top:29px ;
+padding-bottom: 26px;
+    color: hsl(229, 7%, 55%);
+    font-size: 14px;
+}
+span{
+    color: white;
+}
+.bar{border-radius: 7px;
+    height: 12px;
+    margin-top: 8px;
+    margin-bottom:6px ;
+    background-image:linear-gradient(hsl(6, 100%, 80%),hsl(335, 100%, 65%)) ;
+    
+}
+p{display: inline-block;
+   color:whitesmoke ;
+    width: max-content;
+}
+.thousand{
+    float: right;
+}
+.head{
+    height: 23px;
+    margin-bottom: 19px;
+}
+.svg{
+    height: 12px;
+}
+.doc{background-color:hsl(229, 57%, 11%);
+    border-radius: 7px;
+    padding: 7px;
+}
+.folder{
+    background-color:hsl(229, 57%, 11%);
+    border-radius: 7px;
+    padding: 7px;
+}
+    .upload{
+        background-color:hsl(229, 57%, 11%);
+    border-radius: 7px;
+    padding: 7px;
+    }
+
+    

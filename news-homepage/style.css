@@ -27,7 +27,7 @@ body{
 .grid{ gap: 20px;
     display: grid;
     grid-template-columns: repeat(3,427px);
-    grid-template-rows: 130px 238px 238px 238px;
+    grid-template-rows: 130px auto 238px 238px;
     grid-template-areas: 
     "nav nav nav"
 
@@ -37,7 +37,7 @@ body{
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: auto;
    
 
@@ -49,16 +49,16 @@ body{
     
    }
 
-img{
+.headimg{max-width: 100%;
     object-fit: fill;
-    height: 260px;
+    
+    
+
 }
 .image{
     grid-area: head;
-    height: 200px;
     
-   
-}
+    }
 .side{color: white;
     
     grid-area: sidebar;
@@ -147,6 +147,7 @@ color: hsl(240, 100%, 5%);
 }
 .orangelink{
     color: black;
+    
 }
 .orangelink:hover{
     color: hsl(5, 85%, 63%);
@@ -173,6 +174,7 @@ h5{font-weight: 600;
     font-size: 23px;
     padding-bottom: 12px;
 width: 25ch;
+max-width: max-content;
 }
 .text{
     width: 24ch;

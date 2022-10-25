@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
 
-    /* border: 1px solid green; */
+    /* border: 1px solid red; */
     
 }
 body{
     
-    height: 100vh;
+    height: 300vh;
     font-family: 'Inter', sans-serif;
     
 }
 .logo{
+    position: relative
+    ;
+    top: 34px;
     height: 50px;
 }
 
@@ -35,10 +38,11 @@ body{
     "main middle sidebar"
     "bottomleft bottommid bottomright";
     width: fit-content;
+    
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
-    margin-bottom: auto;
+    margin-top: 10px;
+    margin-bottom: auto; 
    
 
 }
@@ -110,7 +114,7 @@ a{
 }
 
 .middlepara{
-    padding-top: 10px0 ;
+    padding-top: 10px;
     border-bottom: none;
     width:39ch ;
     font-size: 18px;
@@ -181,3 +185,100 @@ max-width: max-content;
     padding:  20px 10px 20px 20px;
 }
 
+
+
+
+    
+@media screen and (max-width:1000px) {
+
+    .grid{
+       
+        display:grid;
+        grid-template-columns:repeat(1,401px);
+        grid-template-rows: repeat(8,auto);
+        grid-template-areas: 
+        "navigation"
+        "headimage"
+        "bright"
+        "midtext"
+        "bluelinks"
+         "botomlinkon"
+         "bottomlinktwo"
+         "bottomlinkthree"
+        
+        
+        ;padding-right: 3.4px;
+        padding-left: 3.4px;
+        width: max-content;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav{
+        grid-area: navigation;
+          }
+    .logo{
+        height: 51px;
+        position: relative;
+        top: 50px;
+    }
+    .topics{
+        float: right;
+        
+        padding: 0 0px 0 30px;
+        font-size: 20px;
+    }
+    .navbar {
+        flex-direction:row;
+        /* width: max-content; */
+    }
+    .mobileimg{
+        width:90%;
+        height: 100px;
+
+    }
+.headimg{
+    width: max-content;
+}
+    .image{
+        grid-area: headimage;
+        
+        /* object-fit: contain; */
+    }
+    .main{
+        grid-area: bright;
+        font-size: 50px;
+        width: max-content;
+        width: 13ch;
+      
+    
+    }
+    .middle{
+        margin-top: 0px;
+        grid-area: midtext;
+   
+    padding-bottom: 40px;}
+    .middlepara{
+        width:37ch;
+        margin-top: -25px;
+       
+    }
+    
+    .side{
+        grid-area: bluelinks;
+        width: max-content;
+    }
+    
+    /* .one{
+        grid-area: bottomlinkon;
+    } */
+    .two{
+        grid-area: bottomlinktwo;
+        margin-top: -35px;
+    margin-bottom: -35px;
+    }
+    .three{
+grid-area: bottomlinkthree;
+padding-bottom:58px ;
+    }
+}
